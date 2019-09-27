@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: monospace;
+}
+.card, form, .breview {
+    width: 70%;
+    margin: 30px auto;
+}
+.btn-primary{
+    background-color: #343a40!important;
+    border-color: #343a40!important;
+    outline: 0
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(0, 0, 0, 0.8);
+    outline: 0;
+}
+
+.submitBtn {
+    width: 100%;
+}
+.breview {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 30px;
+}
